@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #292F3F;
+    }
+
+    header {
+        width: 100vw;
+        height: 10vh;
+        /* border-top-left-radius: 32px; */
+        background: #981CEB;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    header>h1 {
+        font-family: 'Inter';
+        color: white;
+        /* font-weight: 500; */
+    }
+
+    header>img {
+        height: 6vh;
+        border-radius: 30px;
+    }
+
+    main {
+        height: 80vh;
+    }
+
+    .mainItem{
+        /* border: 2px solid white; */
+        padding: 10px;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mainItem>h1{
+        width: 70%;
+        height: 100%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    .mainItem>img{
+        width: 40%;
+        height: 100%;
+    }
+
+
+
+    footer {
+        height: 10vh;
+        background-color: #981CEB;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer>img {
+        position: relative;
+        bottom: 20px;
+        width: 30vw;
+    }
+
+    footer>h1 {
+        font-weight: bolder;
+        font-size: 1.5rem;
+        position: relative;
+    }
+</style>
+
+<body>
+    <header>
+        <img src="logo-1.jpg" alt="">
+        <h1>DEFI SQUAD HOME</h1>
+    </header>
+    <main>
+        <div class="mainItem">
+            <h1>Today's Task</h1>
+            <img src="e.webp" alt="">
+        </div>
+        <div class="mainItem">
+            <img src="chat.jpeg" alt="">
+            <h1>Personal Chat</h1>
+        </div>
+        <div class="mainItem">
+            <h1>Group Chat</h1>
+            <img src="group.jpg" alt="">
+        </div>
+        <div class="mainItem">
+            <img src="task.jpg" alt="">
+            <h1>Task Mania</h1>
+        </div>
+        <div class="mainItem">
+            <h1>Work Progress</h1>
+            <img src="progress.png" alt="">
+        </div>
+    </main>
+    <footer>
+        <img src="chatbot.png" alt="">
+        <h1>DEFI SQUAD CHATBOT</h1>
+    </footer>
+</body>
+
+</html>
